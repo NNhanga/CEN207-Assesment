@@ -1,0 +1,33 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "Hows it going?"],
+     "responses": ["Hello!", "Hello, how are you!", "Hi there, how can I help?"],
+     "context_set": ""
+    },
+    {"tag": "goodbye",
+     "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "Thank you, bye"],
+     "responses": ["Bye, let me know if you need help again", "Talk to you later", "Goodbye!", "Goodbye, have a good day!"],
+     "context_set": ""
+    },
+    {"tag": "help",
+     "patterns": ["I need help with my order", "I need help understanding this product", "Do you have similar products?"],
+     "responses": ["Ok, let me help ", "Ok, let me look through the store"],
+     "context_set": ""
+    },
+    {"tag": "order issues",
+     "patterns": ["My delivery didn't arrive", "I got the wrong order", "I'm not happy with my product"],
+     "responses": ["I'm sorry to hear that, let me see what I can do"],
+     "context_set": ""
+    },
+    {"tag": "delivery speed",
+     "patterns": ["Can I get faster delivery?", "How long will it take to be delievered?", "When will my order be delievered", "delivery"],
+     "responses": ["Yes, for $13.99 extra delivery can be expedited ", "For standard it is 5 - 10 business days. For expedited it is 2 - 5 business days"],
+     "context_set": ""
+    },
+    {"tag": "refund",
+     "patterns": ["What is your refund policy?", "I need to return an order", "return order", "Refund"],
+     "responses": ["To return an item, send it back to this address within 90 days of purchase to recieve a full refund"],
+     "context_set": ""
+    }
+]
+}
